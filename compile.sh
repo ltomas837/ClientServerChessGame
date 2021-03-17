@@ -1,1 +1,1 @@
-gradle build && cd src/cpp && make all;
+cd src/java && gradle build && cd ../cpp && make all;

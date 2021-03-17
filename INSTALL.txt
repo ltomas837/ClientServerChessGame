@@ -1,0 +1,10 @@
+First, this project has not been adapted to every operating system (path in code, 
+as well as when generating the GUI library). This project can be used by LINUX users.
+
+In order to install the project, some dependencies are required. Plese run the following.
+
+sudo apt update
+sudo apt install build-essential
+sudo apt install default-jdk
+sudo apt install libsfml-dev
+sudo apt install gradle

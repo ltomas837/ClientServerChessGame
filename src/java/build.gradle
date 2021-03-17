@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+sourceSets {
+    main.java.srcDirs = [ '.' ]
+}
+
+buildDir = '../../bin'
+
+repositories {
+    mavenCentral()
+}
+
+copy {
+    from '../../src/cpp/assets/'
+    into "${buildDir}/classes/java/main/assets/"
+}
