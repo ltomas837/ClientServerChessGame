@@ -9,17 +9,17 @@ See file ***INSTALL.txt***.
 ## Build & run the project
 
 In order to compile the project, run:
-
 ```
 bash compile.sh
 ```
+
 Then go the binary directory.
 
 ```
 cd  bin/classes/java/main
 ```
 
-And finally launch the server and 2 players according to the specification, for example, on different terminal:
+And finally launch the server and 2 players according to the specification, for example, on different terminals:
 ```
 java Server
 ```
@@ -27,3 +27,8 @@ and
 ```
 java Client
 ```
+
+
+### Notes
+
+For full details of the project, please see the documentation under the documentation directory, there are both javadoc and pdf documentation.
