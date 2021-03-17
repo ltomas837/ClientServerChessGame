@@ -10,7 +10,7 @@ See file ***INSTALL.txt***.
 
 In order to compile the project, run:
 ```
-bash compile.sh
+bash compile.sh compile
 ```
 
 Then go the binary directory.
@@ -28,6 +28,10 @@ and
 java Client
 ```
 
+If you want to clean the project, just run the following.
+```
+bash compile.sh clean
+```
 
 ### Notes
 
