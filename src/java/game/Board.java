@@ -34,12 +34,10 @@ public class Board {
      */
     public Board() {
 
-        /* Pawns + empty cases */
-        for (int i=0; i<BOARD_WIDTH*2; i++){
-            board[1][i%BOARD_WIDTH] = new Pawn(Color.BLACK);
-            board[6][i%BOARD_WIDTH] = new Pawn(Color.WHITE);
-            board[2+i%2][i%BOARD_WIDTH] = null;
-            board[3+i%2][i%BOARD_WIDTH] = null;
+        /* Pawns */
+        for (int j=0; j<BOARD_WIDTH; j++){
+            board[1][j] = new Pawn(Color.BLACK);
+            board[6][j]= new Pawn(Color.WHITE);
         }
 
         /* All pieces except pawns */

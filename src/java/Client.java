@@ -1,4 +1,4 @@
-import interpreter.ClientInterpreterImpl;
+import client_interpreter.*;
 
 import java.io.*;
 import java.net.InetAddress;
@@ -18,7 +18,7 @@ public class Client {
 
     public static void main(String[] args) {
 
-        ClientInterpreterImpl inputs = new ClientInterpreterImpl(args);
+        ClientInterpreter inputs = new ClientInterpreterImpl(args);
 
         if ( inputs.getErrorMessage() != null ) {
             display(inputs.getErrorMessage());
@@ -228,7 +228,6 @@ public class Client {
             GUI_thread = new Thread(() -> {
                 System.setProperty("java.library.path", ".");
                 GUI gui = new GUI(board);
-                gui.launchGUI();
             });
             GUI_thread.start();
         }

@@ -9,20 +9,13 @@ public class GUI {
         System.loadLibrary("gui");
     }
 
-    char[][] board;
 
     /**
      *  The native function launching the GUI.
      */
     private native void launchGUI(char[][] board);
 
-    public GUI(char[][] board) {
-        this.board = board;
-    }
-
-    public void launchGUI() {
-        launchGUI(board);
-    }
+    public GUI(char[][] board) { launchGUI(board); }
 
 }
 

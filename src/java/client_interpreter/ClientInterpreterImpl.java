@@ -1,6 +1,6 @@
-package interpreter;
+package client_interpreter;
 
-import interpreter.ClientInterpreter;
+import client_interpreter.ClientInterpreter;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;

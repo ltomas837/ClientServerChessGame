@@ -13,10 +13,14 @@ public class Color {
      * Gets the color of the opponent
      *
      * @param c The color to consider
-     * @return The opponent color
+     * @return The opponent color, -1 otherwise
      */
     public static int getOpponentColor(int c){
-        return (c+1)%2;
+        if ( c == BLACK )
+            return WHITE;
+        else if ( c == WHITE )
+            return BLACK;
+        return -1;
     }
 
     /**

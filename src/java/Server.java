@@ -1,7 +1,7 @@
 import exceptions.Break75StrikeRuleException;
 import exceptions.FiveInHistoryException;
 import game.*;
-import inputs_interpreter.ServerInterpreterImpl;
+import server_interpreter.*;
 
 import java.io.IOException;
 import java.net.InetAddress;
@@ -20,7 +20,7 @@ import static java.lang.System.exit;
  */
 public class Server {
 
-    private static ServerInterpreterImpl inputs;
+    private static ServerInterpreter inputs;
     private static ServerSocket server_socket;
     private static final int strike_timeout     = 600000; // 10 minutes
     private static final int connection_timeout = 60000;  // 1 minute
@@ -152,7 +152,6 @@ public class Server {
      * @param players The players to disconnect
      */
     private static void disconnectPlayers(List<Player> players){
-        /* Should disconnect the players too */
         if ( players != null ) {
             for (Player player : players) {
                 player.disconnect();

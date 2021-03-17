@@ -1,4 +1,4 @@
-package inputs_interpreter;
+package server_interpreter;
 
 import java.util.HashMap;
 import java.util.Map;

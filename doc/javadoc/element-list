@@ -1,6 +1,6 @@
 unnamed package
+client_interpreter
 exceptions
 game
-inputs_interpreter
-interpreter
 pieces
+server_interpreter

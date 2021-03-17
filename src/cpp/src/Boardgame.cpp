@@ -49,7 +49,7 @@ Boardgame::Boardgame(unsigned int win_width, unsigned int win_height) :
   {
     for (unsigned int i = 0; i < BOARDGAME_ROWS; ++i)
     {
-      if ((i / 2) * 2 == i)
+      if ((i / 2) * 2 == i) /* Checking i is even... % is time-consuming */
       {
         square.move(0.0f, CELL_SIZE);
       } else {

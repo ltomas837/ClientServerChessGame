@@ -1,4 +1,4 @@
-package interpreter;
+package client_interpreter;
 
 import java.io.FileReader;
 

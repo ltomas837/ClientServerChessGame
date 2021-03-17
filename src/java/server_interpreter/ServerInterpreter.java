@@ -1,4 +1,4 @@
-package inputs_interpreter;
+package server_interpreter;
 
 /**
  * Interface fetching the inputs from the command line when launching the server.
