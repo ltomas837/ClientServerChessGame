@@ -4,7 +4,7 @@ This project has been developed on Linux and is not cross-platform.
 
 ## Installation
 
-See file *INSTALL.txt*.
+See file ***INSTALL.txt***.
 
 ## Build & run the project
 
