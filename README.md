@@ -36,5 +36,3 @@ bash compile.sh clean
 ### Notes
 
 For full details of the project, please see the documentation under the documentation directory, there are both javadoc and pdf documentation.
-
-Please note that a logger and automated tests (JUnit) will be commited in the next version.
